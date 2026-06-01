@@ -4,6 +4,24 @@ P.S., future:
 
 # nodejs-mysql-docker-backend
 
+A learning-focused API backend server for performing CRUD operations to MySQL database. It simulates a user managing subscription plans offered by a company. `Managing` = creating new plans, retrieving individual plan details / all plan details, updating existing plan info, and deleting plans from the database.
+
+
+# Demo Video
+
+`Get All Plans` API demo,
+
+==> (1) from starting the API server, (2) waiting it starts up, (3) using Postman to **GET HTTP** call the API server endpoint `http://{HOST_NAME}/item` to get info of all subscriptions from database, (4) to verifying API server can receive the API call from Postman
+
+https://user-images.githubusercontent.com/71545537/129474116-aa757cb9-c6bc-4301-acc8-9a0360a72377.mp4
+
+`Create new plan` API demo,
+
+==> (1) from starting the API server, (2) waiting it starts up, (3) using Postman to **POST HTTP** call the API server endpoint `http://{HOST_NAME}/item` to create a new subscription plan to database, (4) to verifying API server can receive the API call from Postman
+
+https://user-images.githubusercontent.com/71545537/129475524-af9a2e0a-afe8-446f-97b3-266818ca4d3d.mp4
+
+
 ## File usage
 0. `db/testing-and-data-model.sql` - describe the data model in MySQL database
 1. `app/app.js` - creating server and server configuration
