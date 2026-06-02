@@ -4,7 +4,9 @@ P.S., future:
 
 # nodejs-mysql-docker-backend
 
-A learning-focused API backend server for performing CRUD operations to MySQL database. It simulates a user managing subscription plans offered by a company. `Managing` = creating new plans, retrieving individual plan details / all plan details, updating existing plan info, and deleting plans from the database through this custom API server running in a Docker container by Docker Compose.
+A learning-focused API backend server for performing CRUD operations (only "CR" here) to MySQL database. It simulates a user managing subscription plans offered by a company. 
+
+P.S. `Managing` = creating new plans, retrieving individual plan details / all plan details, updating existing plan info, and deleting plans from the database through this custom API server running in a Docker container by Docker Compose.
 
 
 # Demo Video
